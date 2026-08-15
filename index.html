@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-page">
+
+        <!-- Background Decoration -->
+        <div class="bg-shape shape-pink"></div>
+        <div class="bg-shape shape-blue"></div>
+        <div class="bg-circle"></div>
+
+
+        <!-- LOGIN CARD -->
+        <div class="login-card">
+
+
+            <!-- =================================
+                 LEFT CONTENT
+            ================================== -->
+
+            <section class="login-visual">
+
+                <!-- Decorative Cards -->
+                <div class="color-card card-one"></div>
+                <div class="color-card card-two"></div>
+                <div class="color-card card-three"></div>
+
+
+                <div class="visual-content">
+
+                    <div class="mini-label">
+                        WELCOME
+                    </div>
+
+                    <h1>
+                        Selamat datang
+                        <span>kembali.</span>
+                    </h1>
+
+                    <p>
+                        Masuk ke akunmu untuk melanjutkan
+                        dan menikmati pengalaman yang lebih
+                        nyaman.
+                    </p>
+
+                </div>
+
+
+                <!-- Bottom Decoration -->
+                <div class="visual-bottom">
+
+                    <div class="line"></div>
+
+                    <span>
+                        SIMPLE · SOFT · ELEGANT
+                    </span>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================
+                 RIGHT LOGIN FORM
+            ================================== -->
+
+            <section class="login-form">
+
+                <div class="form-container">
+
+
+                    <!-- Heading -->
+                    <div class="form-header">
+
+                        <span class="form-overline">
+                            ACCOUNT LOGIN
+                        </span>
+
+                        <h2>
+                            Masuk ke akun
+                        </h2>
+
+                        <p>
+                            Silakan masukkan email dan password
+                            untuk melanjutkan.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- FORM -->
+                    <form>
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <!-- Email Icon -->
+                                <svg
+                                    class="input-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="3"
+                                        y="5"
+                                        width="18"
+                                        height="14"
+                                        rx="2"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                    />
+
+                                    <path
+                                        d="M3 7L12 13L21 7"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                    />
+                                </svg>
+
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Masukkan email"
+                                    autocomplete="email"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- PASSWORD -->
+                        <div class="form-group">
+
+                            <div class="password-heading">
+
+                                <label for="password">
+                                    Password
+                                </label>
+
+                                <a href="#">
+                                    Lupa password?
+                                </a>
+
+                            </div>
+
+
+                            <div class="input-wrapper">
+
+                                <!-- Lock Icon -->
+                                <svg
+                                    class="input-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="4"
+                                        y="10"
+                                        width="16"
+                                        height="10"
+                                        rx="2"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                    />
+
+                                    <path
+                                        d="M8 10V7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7V10"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                    />
+
+                                    <circle
+                                        cx="12"
+                                        cy="15"
+                                        r="1"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+
+
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Masukkan password"
+                                    autocomplete="current-password"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- REMEMBER -->
+                        <div class="remember-row">
+
+                            <label class="remember-label">
+
+                                <input
+                                    type="checkbox"
+                                    id="remember"
+                                >
+
+                                <span class="custom-checkbox"></span>
+
+                                <span>
+                                    Ingat saya
+                                </span>
+
+                            </label>
+
+                        </div>
+
+
+
+                        <!-- LOGIN BUTTON -->
+                        <button
+                            type="submit"
+                            class="login-button"
+                        >
+
+                            <span>
+                                Masuk
+                            </span>
+
+                            <span class="button-arrow">
+                                →
+                            </span>
+
+                        </button>
+
+                    </form>
+
+
+
+                    <!-- REGISTER -->
+                    <div class="register-section">
+
+                        <span>
+                            Belum punya akun?
+                        </span>
+
+                        <a href="#">
+                            Daftar sekarang
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
